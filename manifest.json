@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name":"Spinex Scereen Recorder",
+    "description": "This extension records screen and audio",
+    "version":"1.0",
+    "action": {
+        "default_popup":"main.html",
+        "default_icon": "spinex_icon.png"
+    }
+}
