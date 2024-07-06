@@ -4,7 +4,23 @@
     "description": "This extension records screen and audio",
     "version":"1.0",
     "action": {
-        "default_popup":"main.html",
-        "default_icon": "spinex_icon.png"
-    }
+        "default_popup":"popup/popup.html",
+        "default_icon": "images/spinex_icon.png"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "tabs",
+        "desktopCapture",
+        "alarms"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "web_accessible_resources" : [
+       {
+        "resources": ["static/edit-react.html"],
+        "matches":["<all_urls>"]
+       }
+    ]
 }

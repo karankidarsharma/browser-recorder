@@ -1,0 +1,15 @@
+#spinex-body{
+    min-width: 200px;
+    min-height: 200px;
+    background-color: #fdf9fd;
+    .btn{
+        padding: 10px 40px;
+        margin: 20px 0;
+        border:1px solid #674399;
+        display: block;
+        cursor: pointer;
+        text-align: center;
+        color: #674399;
+    }
+   
+}
